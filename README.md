@@ -44,3 +44,21 @@ Para lanzar los contenedores, debemos ejecutar el docker-compose previamente exp
 Esto solo lo haremos una vez, ya que después usaremos los comandos:
 
 ```docker-compose start``` y ```docker-compose stop```,respectivamente, para inicializarlos o detenerlos.
+
+### Conexión de PyCharm con Docker y PostgreSQL:
+
+- ***Docker:***
+  
+  En este caso, en PyCharm tendremos que irnos abajo donde pone **Services**. Le damos al **+** que encontramos en la barra de herramientas superior de la ventana emergente y a **Docker Connection**. Sin tocar nada más, le damos a **OK** y ya nos debería salir todo lo referente a docker que tengamos (Contenedores, Volúmenes, Imágenes...etc)
+
+  Tiene que quedar tal que así:
+
+  ![DockerIDE](https://cdn.discordapp.com/attachments/830402260336508938/1064872187074453544/Captura_desde_2023-01-17_12-41-43.png)
+
+- ***PostgreSQL:***
+
+  Para esta conexión nos dirigimos a la parte derecha del IDE. Encontraremos una bara vertical donde, entre otras cosas, encontramos Database. Clickamos ahí y a continuacion le damos a **+**. Le damos a **Data Source** y seleccionamos PostgreSQL. Ahora nos saldrá la siguiente ventana:
+
+  ![ImagenDBODOO](https://cdn.discordapp.com/attachments/830402260336508938/1064870687203921990/Captura_desde_2023-01-17_12-35-24.png)
+
+  Es importante que escribamos exactamente las credenciales que hemos puesto en el docker compose además del puerto que es 5432 por defecto. No queda mas que darle a Aplicar y Aceptar y ya tendremos la conexion a la base de datos para trabajar con ella.
