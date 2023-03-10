@@ -10,7 +10,7 @@
 ### Como empezar:
 
 Lo primero que tendremos que hacer será abrir el PyCharm (Es importante que sea la edición **Profesional**, no la **Community**). A continuacion creamos una carpeta nueva y la abrimos con PyCharm. Dentro, crearemos un nuevo archivo llamado **docker-compose.yml**. 
-Este contendrá toda la informacion necesaria para poder ejecutar los servicios y que sean plenamente funcionales. El código del docker-compose lo encontrarás en este repositorio o en este enlace --> [Click aquí](https://github.com/Endermaiter/Odoo-Postgres/blob/master/docker-compose.yml)
+Este contendrá toda la informacion necesaria para poder ejecutar los servicios y que sean plenamente funcionales. El código del docker-compose lo encontrarás en este repositorio o en este enlace --> [Click aquí](https://github.com/Endermaiter/OdooPostgres/blob/master/docker-compose.yml)
 
 ---
 
